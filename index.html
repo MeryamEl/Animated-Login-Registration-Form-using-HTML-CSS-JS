@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mery.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login & Register Page</title>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form >
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Register with E-mail</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form >
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icons"><i class="bx bxl-google"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-github"></i></a>
+                    <a href="#" class="icons"><i class="bx bxl-linkedin"></i></a>
+                </div>
+                <span>Login with E-mail & Password</span>
+                <input type="email" placeholder="Enter E-mail">
+                <input type="password" placeholder="Enter password">
+                <a href="#">Forgot Password ?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        
+        <div class="toggle-container">
+            <div class="toggle">
+                <!-- Left Panel -->
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Sign in using your email and password</p>
+                    <button class="btn hidden" id="login">Sign In</button>
+                </div>
+        
+                <!-- Right Panel -->
+                <div class="toggle-panel toggle-right">
+                        <h1>Hello Everyone!</h1>
+                        <p>Register with your personal details to use all of site features</p>
+                    <button class="btn hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
